@@ -1,9 +1,11 @@
 .root{
-    -fx-background-color: #E0D17B;
+    -fx-background-color: #bebebe;
 }
 .button{
-    -fx-background-color: #FFF1A6;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
 }
 .text-field{
-    -fx-background-color: #99E062;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
 }
