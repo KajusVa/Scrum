@@ -20,20 +20,20 @@ public class LoginController {
     Label login_error;
 
     public void onLoginButtonClick(ActionEvent actionEvent) {
-        // Aprašomas mygtuko paspaudimas
+        //Aprasoma mygtuko paspaudimas
         login_button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                // Aprašomi veiksmai kurie bus atlikti paspaudus mygtuką
+                //Aprasomi veiksmai kurie bus atlikti, paspaudus mygtuka
                 String username2 = username.getText();
                 String password2 = password.getText();
 
-                // Atliekama vartotojo įvestų duomenų validacija
+                //Atliekama vartotojo ivestu duomenu validacija
                 if(Validation.isValidUsername(username2) && Validation.isValidPassword(password2)){
-                    login_error.setText("Username: " + username2 + "\n" + "Password: " + password2);
+                    login_error.setText("Username: " + username2 + "\n " + "Password: " + password2);
                 }
                 else {
-                    login_error.setText("Wrong username or password");
+                    login_error.setText("Wrong username or password!");
                 }
 
             }
