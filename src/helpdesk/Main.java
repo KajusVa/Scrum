@@ -28,7 +28,7 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        // Paleidžiamas metodas, kuris startuos GUI aplikaciją (Start metodas).
+        // Paleidžiamas metodas, kuris startuos GUI aplikaciją (Start metodas)
         launch(args);
     }
 }
