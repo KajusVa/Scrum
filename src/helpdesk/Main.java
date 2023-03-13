@@ -23,7 +23,7 @@ public class Main extends Application {
         primaryStage.setTitle("Login");
         // Nustatomas dialogo plotas ir ilgis, ir priskiriama dialogui grafinė vartotojo sąsaja (Forma), tai yra užkraunami GUI
         primaryStage.setScene(loginScene);
-        // Reikalinga kad rodytų dialoga
+        // Reikalinga kad rodytų dialoga.
         primaryStage.show();
     }
 
